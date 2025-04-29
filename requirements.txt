@@ -12,3 +12,5 @@ hdbscan
 requests
 safetensors
 tokenizers
+sympy
+pillow
