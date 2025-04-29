@@ -1,0 +1,14 @@
+flask
+transformers
+torch
+better_profanity
+psycopg2
+pandas
+matplotlib
+sentence-transformers
+keybert
+scikit-learn
+hdbscan
+requests
+safetensors
+tokenizers
