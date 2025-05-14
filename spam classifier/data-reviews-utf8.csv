@@ -1,0 +1,151 @@
+id,asset_id,comment,user_id,parent_review_id,created_at,label
+1,asset_ui1,This asset is amazing and very useful!,1,,26:12.3,ham
+3,asset_ui1,I totally agree!,1,1.0,26:12.3,spam
+67,asset_theme1,Really smooth and easy to use!,1,,3/5/2025 0:00,ham
+5,asset333,I kind of agree!,2,2.0,26:12.3,ham
+2,asset333,updated!,1,,26:12.3,spam
+68,asset_theme1,Loved the interface and design.,2,,3/10/2025 0:00,ham
+6,asset_theme1,very bad asset!,1,,26:12.3,ham
+7,asset_theme1,very bad asset!,1,,26:12.3,ham
+8,asset_theme1,very bad asset!,1,,26:12.3,ham
+9,asset_theme1,very bad asset!,1,,26:12.3,ham
+10,asset_theme1,very bad asset!,1,,26:12.3,ham
+11,asset_theme1,very bad asset!,1,,26:12.3,ham
+12,asset_theme1,very bad asset!,1,,26:12.3,ham
+13,asset_theme1,very good asset!,1,,,ham
+14,asset_theme1,kind of good asset!,1,,30:44.1,ham
+15,asset_ui1,This asset was easy to use and setup was smooth,1,,29:24.8,ham
+16,asset_ui1,Great user interface and clean design,1,,29:24.8,ham
+17,asset_theme1,Confusing setup instructions but good support,2,,29:24.8,ham
+18,asset_theme1,Took time to install but runs fast after,2,,29:24.8,ham
+19,asset_ui1,"Easy integration with existing projects, very intuitive!",1,,31:42.2,ham
+20,asset_ui1,Setup process was straightforward and fast.,1,,31:42.2,ham
+21,asset_ui1,Great documentation and quick installation guide.,2,,31:42.2,ham
+22,asset_ui1,"Performance is smooth, even under heavy load.",2,,31:42.2,ham
+23,asset_theme1,UI feels modern and navigation is easy.,1,,31:42.2,ham
+24,asset_theme1,Had trouble configuring at first but support was helpful.,2,,31:42.2,ham
+25,asset_theme1,"Lightweight asset, runs efficiently.",1,,31:42.2,ham
+26,asset_theme1,Design is clean and professional.,2,,31:42.2,ham
+27,asset_ui1,"The asset was extremely easy to install and use, even for beginners.",1,,43:57.9,ham
+28,asset_ui1,"Loved the clean and modern user interface, very intuitive design.",2,,43:57.9,ham
+29,asset_ui1,"Setup process was quick and smooth, with clear documentation.",1,,43:57.9,ham
+30,asset_ui1,This asset boosted my project performance significantly.,2,,43:57.9,ham
+31,asset_ui1,The support team was very responsive and solved my issue quickly.,1,,43:57.9,ham
+32,asset_theme1,Design is beautiful but the setup instructions are confusing.,1,,44:28.1,ham
+33,asset_theme1,"Had trouble configuring at first, but performance is good after setup.",2,,44:28.1,ham
+34,asset_theme1,Installation failed initially due to missing files.,1,,44:28.1,ham
+35,asset_theme1,Clean UI but the onboarding guide could be better.,2,,44:28.1,ham
+36,asset_theme1,Customer support was helpful but slow to respond.,1,,44:28.1,ham
+37,asset333,The asset crashes frequently and caused project delays.,1,,44:36.0,ham
+38,asset333,"Full of bugs, very unstable and frustrating to use.",2,,44:36.0,ham
+39,asset333,Performance was poor even on simple tasks.,1,,44:36.0,ham
+40,asset333,"Lack of updates and fixes, not recommended.",2,,44:36.0,ham
+41,asset333,"Terrible experience, wasted a lot of time.",1,,44:36.0,ham
+42,asset123,Installation was very fast and easy.,2,,06:38.9,ham
+43,asset123,Boosted project performance significantly.,2,,06:38.9,ham
+44,asset123,No crashes after multiple tests.,2,,06:38.9,ham
+45,asset123,Super intuitive user experience.,2,,06:38.9,ham
+46,asset123,The asset setup process was extremely smooth.,2,,06:38.9,ham
+47,widget-001,Simple and clean interface.,2,,07:07.8,ham
+48,widget-001,Setup guide was very easy to follow.,2,,07:07.8,ham
+49,widget-001,No issues during installation.,2,,07:07.8,ham
+50,widget-001,Fast performance even under heavy load.,2,,07:07.8,ham
+51,widget-001,User-friendly design made it easy to configure.,2,,07:07.8,ham
+52,asset_util1,"Amazing experience, installed within minutes.",2,,07:15.7,ham
+53,asset_util1,Smooth integration with my project.,2,,07:15.7,ham
+54,asset_util1,"Very helpful documentation, easy to understand.",2,,07:15.7,ham
+55,asset_util1,Performance has been excellent so far.,2,,07:15.7,ham
+56,asset_util1,Quick setup without any bugs.,2,,07:15.7,ham
+57,asset_template1,No crash even after hours of usage.,2,,07:21.6,ham
+58,asset_template1,Highly stable and well-documented.,2,,07:21.6,ham
+59,asset_template1,Easy to modify templates with great flexibility.,2,,07:21.6,ham
+60,asset_template1,Performance exceeded expectations.,2,,07:21.6,ham
+61,asset_template1,Intuitive template customization process.,2,,07:21.6,ham
+62,asset_temp2late21,Smooth integration with existing components.,2,,07:30.6,ham
+63,asset_temp2late21,Very easy asset to set up.,2,,07:30.6,ham
+64,asset_temp2late21,Clean and modern UI elements.,2,,07:30.6,ham
+65,asset_temp2late21,Quick installation with no errors.,2,,07:30.6,ham
+66,asset_temp2late21,Perfect asset for quick project builds.,2,,07:30.6,ham
+69,asset_theme1,Very buggy and slow to load.,1,,3/15/2025 0:00,ham
+70,asset_theme1,User experience was great!,2,,3/20/2025 0:00,ham
+71,asset_theme1,I faced constant crashes.,1,,4/1/2025 0:00,ham
+72,asset_theme1,Works like a charm. No issues.,2,,4/4/2025 0:00,ham
+73,asset_theme1,Not intuitive and hard to navigate.,1,,4/10/2025 0:00,ham
+74,asset_theme1,"Fast performance, amazing visuals!",2,,4/14/2025 0:00,ham
+75,asset_theme1,The documentation is very poor.,1,,4/20/2025 0:00,ham
+76,asset_theme1,Love the speed and functionality.,2,,5/2/2025 0:00,ham
+77,asset_theme1,"So many bugs, very frustrating.",1,,5/6/2025 0:00,ham
+78,asset_theme1,Decent overall. Needs polish.,2,,5/10/2025 0:00,ham
+79,asset_theme1,Super clean UI!,1,,5/15/2025 0:00,ham
+80,asset_theme1,the integration worked easily!,3,,10:24.5,ham
+81,asset_theme1,the integration worked kinda easily,3,,29:36.5,ham
+82,asset_theme1,the integration worked kinda easily,3,,34:51.7,ham
+83,asset_theme1,the integration worked kinda easily,3,,37:38.8,ham
+84,asset_theme1,the integration worked kinda easily,2,,41:21.4,ham
+85,asset_theme1,I agree with your point!,2,68.0,43:40.4,spam
+86,e1e66ec4-7238-47fc-83b9-7c2b071fb430,tete,3,,4/30/2025 11:40,spam
+87,e1e66ec4-7238-47fc-83b9-7c2b071fb430,yes,3,86.0,41:01.9,spam
+88,asset_theme1,the integration is so ass,3,,35:29.7,spam
+89,asset_theme1,the integration is so shitty,3,,35:46.3,spam
+90,asset_theme1,the integration is so good,3,,38:34.2,ham
+91,asset123,dvf,3,,01:19.0,spam
+92,asset123,dc,3,,01:34.6,spam
+93,asset123,ass,3,42.0,10:23.8,spam
+94,asset_theme1,I agree with your ass!,2,68.0,11:43.4,spam
+95,asset123,a,3,,14:28.8,spam
+96,asset123,sd,3,,15:55.9,spam
+97,asset123,sdfg,3,,16:57.5,spam
+99,asset123,aaaa,3,,20:44.9,spam
+100,asset123,zedf,3,,23:10.0,spam
+101,widget-001,aa,3,,23:41.1,spam
+102,asset_util1,aaa,3,,24:45.5,spam
+103,asset_util1,aaa,3,,28:14.9,spam
+104,asset_template1,aa,3,,42:58.9,spam
+105,asset_template1,aa,3,,43:00.6,spam
+106,asset123,bbg,3,42.0,07:23.3,spam
+107,asset123,bbg,3,42.0,07:23.5,spam
+108,asset123,bbg,3,42.0,07:23.7,spam
+109,asset123,bbg,3,42.0,07:23.8,spam
+110,e1e66ec4-7238-47fc-83b9-7c2b071fb430,testing,2,,31:32.3,spam
+111,e1e66ec4-7238-47fc-83b9-7c2b071fb430,testing,2,,31:32.4,spam
+113,asset123,nice,2,,2025-05-13 17:17:10,spam
+114,asset123,testing,2,,2025-05-13 17:17:10,spam
+115,asset123,asdfgh,2,,2025-05-13 17:17:10,spam
+116,asset123,click here,2,,2025-05-13 17:17:10,spam
+117,asset123,perfectttttt,2,,2025-05-13 17:17:10,spam
+118,asset123,🔥🔥🔥,2,,2025-05-13 17:17:10,spam
+119,asset123,Buy this now!,2,,2025-05-13 17:17:10,spam
+120,asset123,ok,2,,2025-05-13 17:17:10,spam
+121,asset123,this template is the best in the world omg omg,2,,2025-05-13 17:17:10,spam
+122,asset123,yes,2,,2025-05-13 17:17:10,spam
+123,asset123,i cant believe this,2,,2025-05-13 17:17:10,spam
+124,asset123,tetsing,2,,2025-05-13 17:18:46,spam
+125,asset123,yes,2,,2025-05-13 17:18:46,spam
+126,asset123,good,2,,2025-05-13 17:18:46,spam
+127,asset123,awesome!!!,2,,2025-05-13 17:18:46,spam
+128,asset123,🔥🔥🔥🔥,2,,2025-05-13 17:18:46,spam
+129,asset123,free download??,2,,2025-05-13 17:18:46,spam
+130,asset123,visit my profile,2,,2025-05-13 17:18:46,spam
+131,asset123,wow just wow,2,,2025-05-13 17:18:46,spam
+132,asset123,template cool,2,,2025-05-13 17:18:46,spam
+133,asset123,downloaded it thx,2,,2025-05-13 17:18:46,spam
+134,asset123,check out this one,2,,2025-05-13 17:18:46,spam
+135,asset123,i want this,2,,2025-05-13 17:18:46,spam
+136,asset123,email me for more,2,,2025-05-13 17:18:46,spam
+137,asset123,🔥🔥🔥🔥🔥🔥🔥,2,,2025-05-13 17:18:46,spam
+138,asset123,goooood,2,,2025-05-13 17:18:46,spam
+139,asset123,so nice,3,,2025-05-13 17:18:46,spam
+140,asset123,i love this!!,3,,2025-05-13 17:18:46,spam
+141,asset123,omg omg omg,3,,2025-05-13 17:18:46,spam
+142,asset123,cool,3,,2025-05-13 17:18:46,spam
+143,asset123,it works,3,,2025-05-13 17:18:46,spam
+144,asset123,very cool very cool very cool,3,,2025-05-13 17:18:46,spam
+145,asset123,bbg,3,,2025-05-13 17:18:46,spam
+146,asset123,123,3,,2025-05-13 17:18:46,spam
+147,asset123,this is good,3,,2025-05-13 17:18:46,spam
+148,asset123,i cant believe this exists,3,,2025-05-13 17:18:46,spam
+149,asset123,really interesting thank you,3,,2025-05-13 17:18:46,spam
+150,asset123,ok thanks,3,,2025-05-13 17:18:46,spam
+151,asset123,template best ever,3,,2025-05-13 17:18:46,spam
+152,asset123,get this,3,,2025-05-13 17:18:46,spam
+153,asset123,perfectttt,3,,2025-05-13 17:18:46,spam

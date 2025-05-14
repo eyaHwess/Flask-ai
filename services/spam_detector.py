@@ -1,21 +1,12 @@
-def detect_spam(text):
-    words = text.lower().split()
+import os
+import joblib
 
-    is_spam = False
+model_path = os.path.join(os.path.dirname(__file__), "../spam classifier/spam_classifier.joblib")
+model = joblib.load(model_path)
 
-    # Rule 1: Very short review (≤3 words)
-    if len(words) <= 3:
-        is_spam = True
-
-    # Rule 2: Excessive exclamation marks
-    if text.count('!') >= 3:
-        is_spam = True
-
-    # Rule 3: Highly repetitive words
-    if len(set(words)) < len(words) / 2:
-        is_spam = True
-
+def detect_spam(text, threshold=0.6):
+    prob = model.predict_proba([text])[0][1]  # probability it's spam
     return {
-        "label": "SPAM" if is_spam else "HAM",
-        "score": 1.0 if is_spam else 0.0 
+        "label": "spam" if prob > threshold else "ham",
+        "score": prob
     }
