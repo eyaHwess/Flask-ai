@@ -5,9 +5,10 @@ from routes.recommendation_routes import recommendation_bp
 from services.asset_theme_builder import fetch_all_asset_themes
 from sentence_transformers import SentenceTransformer
 from routes.chatbot_routes import chatbot_bp
+from flask_cors import CORS
 
 app = Flask(__name__)
-
+CORS(app, supports_credentials=True, resources={r"/*": {"origins": "http://localhost:4200"}})
 asset_embeddings_cache = {}
 
 embedder = SentenceTransformer('all-MiniLM-L6-v2')
