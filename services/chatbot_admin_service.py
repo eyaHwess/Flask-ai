@@ -5,12 +5,10 @@ from flask import request
 OPENROUTER_API_KEY = "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"
 BASE_API = "http://localhost:8081/admin"
 
-
-
 def get_auth_headers():
     token = request.headers.get("Authorization")
     if not token:
-        print("⚠️ No Authorization header found in request!")
+        print(" No Authorization header found in request!")
     return { "Authorization": token } if token else {}
 
 def safe_json(url):
@@ -37,7 +35,6 @@ def gather_full_context():
 
 def generate_global_response(question):
     context = gather_full_context()
-
     prompt = (
         "You are a smart admin assistant with full access to system data.\n\n"
         f"User Summary: {context['summary']}\n"
@@ -52,7 +49,6 @@ def generate_global_response(question):
         f"Most Downloaded Asset: {context['most_downloaded_asset']}\n"
         f"\nQuestion: {question}\nAnswer:"
     )
-
     response = requests.post(
         "https://openrouter.ai/api/v1/chat/completions",
         headers={
@@ -67,7 +63,6 @@ def generate_global_response(question):
             ]
         }
     )
-
     if response.status_code == 200:
         return response.json()["choices"][0]["message"]["content"].strip()
     else:

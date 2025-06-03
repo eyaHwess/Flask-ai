@@ -24,26 +24,16 @@ def sentiment_trend():
 def check_profanity():
     
     try:
-        # Log the request body
-        print(f"Request Body: {request.data}")  # Logs raw data received
-
-        # Parse incoming JSON
+        print(f"Request Body: {request.data}")
         review_data = request.get_json()
         if not review_data:
             return jsonify({"error": "Invalid input, JSON is expected"}), 400
-
-        # Extract the comment from the request body
         review_text = review_data.get("comment")
-        asset_id = review_data.get("assetId")  # You can use this for logging or other purposes
-
+        asset_id = review_data.get("assetId")
         if not review_text:
             return jsonify({"error": "Review text is required"}), 400
-
-        print(f"Received review for asset {asset_id}: {review_text}")  # Log for debugging
-
-        # Check for profanity (assuming you have this method already)
-        contains_profanity = has_profanity(review_text)  # Replace with your profanity-checking logic
-
+        print(f"Received review for asset {asset_id}: {review_text}")
+        contains_profanity = has_profanity(review_text)
         return jsonify({"containsProfanity": contains_profanity}), 200
     except Exception as e:
         print(f"Error processing request: {str(e)}")

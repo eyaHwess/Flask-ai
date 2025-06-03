@@ -9,9 +9,10 @@ examples = [
     "buy now!!! FREE access",
     "bbg",
     "hello",
-    "super buggy and doesn't work at all"
+    "super buggy and doesn't work at all",
+    "aaaaaa"
 ]
 
 for review in examples:
     label = detect_spam(review)
-    print(f"📩 {review} ➜ {label}")
+    print(f" {review} ➜ {label}")

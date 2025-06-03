@@ -1,4 +1,3 @@
-
 DB_CONFIG = {
     "dbname": "asset_rating",
     "user": "postgres",

@@ -12,7 +12,9 @@ CORS(app, supports_credentials=True, resources={r"/*": {"origins": "http://local
 asset_embeddings_cache = {}
 
 embedder = SentenceTransformer('all-MiniLM-L6-v2')
-
+#te5dem 9bal every request
+#build and cache the embeddings once and then reuse them for future requests without recomputing them every time.
+#terba7 wa9t
 @app.before_request
 def initialize_asset_themes():
     global asset_embeddings_cache
@@ -23,7 +25,6 @@ def initialize_asset_themes():
             asset_embeddings_cache[asset_id] = embedder.encode(asset_themes)
 
         app.config["asset_embeddings_cache"] = asset_embeddings_cache
-
         print(f"Asset embeddings cached in memory: {len(asset_embeddings_cache)} assets")
 
 app.register_blueprint(review_bp)

@@ -25,16 +25,10 @@ def recommend():
 
     if not rows:
         return jsonify({"error": "No reviews found for this user"}), 404
-
     user_reviews = [row[1] for row in rows]
     reviewed_asset_ids = set(row[0] for row in rows)
-
     user_themes = build_user_preferences(user_reviews)
-
     asset_theme_map = fetch_all_asset_themes()
-
     filtered_asset_theme_map = {asset_id: themes for asset_id, themes in asset_theme_map.items() if asset_id not in reviewed_asset_ids}
-
     recommendations = recommend_assets(user_themes, filtered_asset_theme_map)
-
     return jsonify({"recommendedAssets": recommendations})

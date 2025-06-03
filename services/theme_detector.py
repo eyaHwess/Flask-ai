@@ -8,7 +8,6 @@ def detect_themes(reviews):
     if not reviews:
         return []
     joined_text = " ".join(reviews)
-
     keywords = kw_model.extract_keywords(
         joined_text,
         keyphrase_ngram_range=(1, 3),

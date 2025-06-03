@@ -1,11 +1,10 @@
 import requests
 from services.asset_theme_builder import fetch_reviews_for_asset
 
-# Paste your OpenRouter key here
 OPENROUTER_API_KEY = "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"
 
 def build_prompt(reviews, question):
-    review_text = " ".join(reviews[:20])  # Use only the first 20 reviews
+    review_text = " ".join(reviews[:20])
     return (
         f"You are a helpful assistant.\n"
         f"These are user reviews about an asset:\n\n"
