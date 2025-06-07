@@ -16,7 +16,8 @@ def recommend_assets(user_themes, asset_theme_map, top_n=5, similarity_threshold
     Only recommend assets with a similarity score > similarity_threshold.
     Only positive themes will be considered for recommendation.
     """
-
+    if not user_themes:
+        return []
     asset_scores = {}
 
     # Embed all user themes once
